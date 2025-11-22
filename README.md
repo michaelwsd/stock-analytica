@@ -78,10 +78,7 @@ Backtest logs and results are stored in the `logs/` directory. These include:
 <img width="736" height="813" alt="image" src="https://github.com/user-attachments/assets/0e9278b2-b4d5-48a9-82ae-827eb0457625" />
 <img width="1060" height="902" alt="image" src="https://github.com/user-attachments/assets/f4aea4b4-d4f7-470c-9f83-88126b17bbe1" />
 
-
-
-
 ## Acknowledgments
-- [Lumibot](https://lumibot.com): Used for backtesting and strategy implementation.
+- [Lumibot](https://github.com/Lumiwealth/lumibot): Used for backtesting and strategy implementation.
 - [FastAPI](https://fastapi.tiangolo.com): Framework for building the web application.
 - [SQLite](https://www.sqlite.org): Database for storing stock and price data.
