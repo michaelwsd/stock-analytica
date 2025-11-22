@@ -82,13 +82,6 @@ class SMACrossover(Strategy):
                 # Exit: If we are long, sell to exit the position (go flat).
                 self.log_message("SELL signal: Fast SMA < Slow SMA. Selling all long shares.")
                 self.sell_all()
-            elif pos is None:
-                # Optional: Uncomment the following lines if you want to short the asset on a death cross.
-                # quantity = self.get_target_quantity(close_prices.iloc[-1])
-                # if quantity > 0:
-                #     self.log_message(f"SHORT signal: Fast SMA < Slow SMA. Shorting {quantity} shares.")
-                #     self.sell(self.asset, quantity)
-                pass # Default: Just stay flat if not long
 
     def get_target_quantity(self, price):
         """Calculates a simple quantity based on a fixed percentage of portfolio value."""
